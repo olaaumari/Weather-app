@@ -122,7 +122,7 @@ Pygments==2.14.0
 pylev==1.4.0
 Pympler==1.0.1
 pyparsing==3.0.9
-pypiwin32==223
+#pypiwin32==223
 pyproj==3.4.0
 pyrsistent==0.18.1
 pyshp==2.3.1
