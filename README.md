@@ -1,9 +1,22 @@
-## Project Web scraping
 
-Our plan is to consolidate six databases using web scraping from the website https://www.wunderground.com. We will use this data to create an application that predicts the weather for the user. The database will be a time series data.
+# Project: Web Scraping
 
-The next step is to perform feature engineering by creating new variables from existing ones, such as the day of the week, quarter, and day of the year. We will also conduct a simple analysis using descriptive statistics to explore the data. As a bonus, we will use an XGBoost machine learning model to predict today's forecast on the consolidated data.
+## Introduction
 
-It is essential to use PySpark in the feature engineering part. Then, we will use both PySpark and pandas (if PySpark is not installed on your machine) for preprocessing and creating new features.
+The goal of this project is to consolidate six weather databases using web scraping from [wunderground.com](https://www.wunderground.com/). The scraped data will be used to create an application that predicts the weather for the user. The resulting database will be a time series data.
 
-The final deliverable will be a Python notebook and a Streamlit dashboard. The dashboard will contain a presentation page of the website and data source where the user can choose a curated dataset scraped (e.g. New York, Paris, Milan, etc.), a modeling page for forecasting weather for the chosen dataset, and a page with the actual temperature, which allows us to compare our prediction error.x
+## Methodology
+
+1. Web scraping of weather data from [wunderground.com](https://www.wunderground.com/).
+2. Feature engineering of the scraped data, including creating new variables such as the day of the week, quarter, and day of the year.
+3. Exploratory analysis using descriptive statistics.
+4. Prediction of today's weather using an XGBoost machine learning model.
+5. Preprocessing and feature creation using PySpark and/or pandas.
+
+## Deliverables
+
+* Python notebook
+* Streamlit dashboard
+  * Presentation page with information about the website and data source
+  * Modeling page for weather forecasting
+  * Comparison page to measure prediction error against actual temperature
