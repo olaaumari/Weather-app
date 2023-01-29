@@ -107,9 +107,6 @@ Pillow==9.2.0
 pkginfo==1.8.3
 platformdirs==2.5.2
 plotly==5.10.0
-poetry==1.2.0
-poetry-core==1.1.0
-poetry-plugin-export==1.0.6
 polar==0.0.118
 prometheus-client==0.14.1
 prompt-toolkit==3.0.31
