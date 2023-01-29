@@ -63,26 +63,25 @@ if page == 'Presentation':
         color = colors[i % len(colors)]
         colored_text += f"<span style='color: {color}'>{letter}</span>"
 
-    st.markdown(f"<h1 style='text-align: center; font-size:25px; border-radius:2%; background-color:black; padding: 10px; color:white;'>{colored_text}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='text-align: center; font-size:25px; border-radius:2%; background-color:white; padding: 10px; color:black;'>{colored_text}</h1>", unsafe_allow_html=True)
 
-
-    st.markdown("<h1 style='text-align: center; color: black; font-size:25px; border-radius:2%; background-color:black; padding: 10px; color:white;'>Machine Learning Application for Weather Forecast</h1>", unsafe_allow_html=True)
-
-    st.markdown("<hr style='border: 2px solid #F2F2F2;'>", unsafe_allow_html=True)
-
-    st.markdown("<h2 style='text-align: center; color: white; font-size:20px;'>Team Members:</h2>", unsafe_allow_html=True)
-
-    st.markdown("<h3 style='text-align: center; color: white; font-size:18px;'>ABABII Anisoara, LAAUMARI Oussama, ZAHI Camil </h3>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white; font-size:25px; border-radius:2%; background-color:white; padding: 10px; color:black;'>Machine Learning Application for Weather Forecast</h1>", unsafe_allow_html=True)
 
     st.markdown("<hr style='border: 2px solid #F2F2F2;'>", unsafe_allow_html=True)
 
-    st.markdown("<h2 style='text-align: center; color: white; font-size:20px;'>About the Application:</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: black; font-size:20px;'>Team Members:</h2>", unsafe_allow_html=True)
 
-    st.markdown("<h3 style='text-align: center; color: white; font-size:18px;'>We have developed a weather forecasting application that utilizes the XGBoost algorithm to predict the weather in certain cities that are dear to us. Our model may not be perfect, but it provides valuable insights and is constantly improving. We invite you to discover our application and see for yourself the potential it holds in terms of weather forecasting. Whether you live in one of the cities we cover or are planning a visit, our application will help you stay informed and prepared for the weather ahead..</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: black; font-size:18px;'>ABABII Anisoara, LAAUMARI Oussama, ZAHI Camil </h3>", unsafe_allow_html=True)
 
     st.markdown("<hr style='border: 2px solid #F2F2F2;'>", unsafe_allow_html=True)
 
-    st.markdown("<h3 style='text-align: center; color: white; font-size:18px;'>Weather Underground is a commercial weather service providing real-time weather information over the Internet. Weather Underground provides weather reports for most major cities around the world on its Web site, as well as local weather reports for newspapers and third-party sites. Its information comes from the National Weather Service (NWS), and over 250,000 personal weather stations (PWS). The site is available in many languages, and customers can access an ad-free version of the site with additional features for an annual fee. Weather Underground is owned by The Weather Company, a subsidiary of IBM.</h3>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: black; font-size:20px;'>About the Application:</h2>", unsafe_allow_html=True)
+
+    st.markdown("<h3 style='text-align: center; color: black; font-size:18px;'>We have developed a weather forecasting application that utilizes the XGBoost algorithm to predict the weather in certain cities that are dear to us. Our model may not be perfect, but it provides valuable insights and is constantly improving. We invite you to discover our application and see for yourself the potential it holds in terms of weather forecasting. Whether you live in one of the cities we cover or are planning a visit, our application will help you stay informed and prepared for the weather ahead..</h3>", unsafe_allow_html=True)
+
+    st.markdown("<hr style='border: 2px solid #F2F2F2;'>", unsafe_allow_html=True)
+
+    st.markdown("<h3 style='text-align: center; color: black; font-size:18px;'>Weather Underground is a commercial weather service providing real-time weather information over the Internet. Weather Underground provides weather reports for most major cities around the world on its Web site, as well as local weather reports for newspapers and third-party sites. Its information comes from the National Weather Service (NWS), and over 250,000 personal weather stations (PWS). The site is available in many languages, and customers can access an ad-free version of the site with additional features for an annual fee. Weather Underground is owned by The Weather Company, a subsidiary of IBM.</h3>", unsafe_allow_html=True)
 
    
         
@@ -100,7 +99,7 @@ if page == 'Presentation':
         st.image("pictures/NY.jpg")
     else:
         pass
-    st.markdown("<h3 style='text-align: center; color: white; font-size:18px;'>"+ selected_city + "</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: black; font-size:18px;'>"+ selected_city + "</h3>", unsafe_allow_html=True)
 
 ######################
     
