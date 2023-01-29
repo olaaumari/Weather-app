@@ -140,8 +140,8 @@ python-dateutil==2.8.2
 python-pptx==0.6.21
 pytz==2022.2.1
 pytz-deprecation-shim==0.1.0.post0
-pywin32==223
-pywin32-ctypes==0.2.0
+#pywin32==223
+#pywin32-ctypes==0.2.0
 pywinpty==2.0.7
 pyzmq==23.2.1
 qdldl==0.1.5.post2
